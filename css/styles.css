@@ -60,6 +60,10 @@ img {
   padding-bottom: 94px;
 }
 
+.section.what-we-do {
+  padding-top: 0;
+}
+
 .info,
 .link {
   text-decoration: none;
@@ -98,6 +102,7 @@ img {
 
 .site-nav {
   display: flex;
+  align-items: center;
 }
 
 .site-nav > .item + .item,
@@ -112,9 +117,6 @@ img {
 
 .logo {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-right: 93px;
 
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
@@ -126,6 +128,14 @@ img {
 
 .logo .accent {
   color: var(--accent-color);
+}
+
+.site-nav .logo {
+  margin-right: 93px;
+}
+
+.page-footer .logo {
+  margin-bottom: 20px;
 }
 
 .site-nav .link {
@@ -242,7 +252,8 @@ img {
 }
 
 .our-team .text-wrapper {
-  padding: 30px 59px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .our-team .subtitle {
